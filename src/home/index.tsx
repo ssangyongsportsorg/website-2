@@ -1,5 +1,4 @@
 import { Community } from "./Community";
-import { Customers } from "./Customers";
 import { Hero } from "./Hero";
 import { RpgSystem } from "./RpgSystem";
 import { Features } from "./features";
