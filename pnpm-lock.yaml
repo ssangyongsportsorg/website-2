@@ -6,7 +6,7 @@ specifiers:
   '@types/react': ^18.0.28
   '@types/react-dom': ^18.0.11
   '@vercel/analytics': ^0.1.11
-  '@vercel/edge-config': ^0.1.1
+  '@vercel/edge-config': ^0.4.0
   autoprefixer: ^10.4.14
   clsx: ^1.2.1
   eslint: 8.36.0
@@ -35,7 +35,7 @@ specifiers:
 dependencies:
   '@next/env': 13.2.4
   '@vercel/analytics': 0.1.11_react@18.2.0
-  '@vercel/edge-config': 0.1.1
+  '@vercel/edge-config': 0.4.1
   clsx: 1.2.1
   framer-motion: 10.2.4_biqbaboplfbrettd7655fr4n2y
   iron-session: 6.3.1_next@13.2.4
@@ -752,9 +752,15 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@vercel/edge-config/0.1.1:
-    resolution: {integrity: sha512-HDl+12tzW2RHIu8Y804kXg2VpZ02KVb7Nqsa+e1AFoACXXMb+7TfjI1wR19tXoDIu5enQz1dbat40YMEgaH13Q==}
+  /@vercel/edge-config-fs/0.1.0:
+    resolution: {integrity: sha512-NRIBwfcS0bUoUbRWlNGetqjvLSwgYH/BqKqDN7vK1g32p7dN96k0712COgaz6VFizAm9b0g6IG6hR6+hc0KCPg==}
+    dev: false
+
+  /@vercel/edge-config/0.4.1:
+    resolution: {integrity: sha512-4Mc3H7lE+x4RrL17nY8CWeEorvJHbkNbQTy9p8H1tO7y11WeKj5xeZSr07wNgfWInKXDUwj5FZ3qd/jIzjPxug==}
     engines: {node: '>=14.6'}
+    dependencies:
+      '@vercel/edge-config-fs': 0.1.0
     dev: false
 
   /acorn-jsx/5.3.2_acorn@8.8.2:
